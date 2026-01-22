@@ -1,0 +1,22 @@
+# Ignore Data Files
+data/*.csv
+data/saved_models/
+*.parquet
+
+#Ignore Unwanted Classroom Materials
+documentation_presentation/
+src_demo/
+
+# Ignore Python/OS junk
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore Virtual Env
+venv/
+env/
